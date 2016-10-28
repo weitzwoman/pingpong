@@ -34,7 +34,7 @@
 
 ## Setup/Installation Requirements
 
-* _Works in any web browser [click here] (http://weitzwoman.github.io/ping-pong) to view on gh-pages._
+* _Works in any web browser [click here] (https://weitzwoman.github.io/ping-pong) to view on gh-pages._
 
 ## Support and contact details
 
