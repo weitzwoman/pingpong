@@ -12,29 +12,40 @@
       <div class="jumbotron">
         <h1>Ping Pong!</h1>
       </div>
-      <h3>Let's Play!</h3>
-      <h4>Rules:</h4>
-      <p>Ping Pong will count up to your number from 1 with the following exceptions:
-      <ol>
-        <li>Numbers divisible by 3 become "ping"</li>
-        <li>Numbers divisible by 5 become "pong"</li>
-        <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-      </ol>
-      <form id="ping-pong">
-        <div class="form-group">
-          <label for="ping-pong">Enter your number here:</label><br>
-          <input id="userInput" type="text">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="panel panel-info">
+            <div class="panel-heading"><h3>Let's Play!</h3></div>
+            <div class="panel-body">
+              <h4>Rules:</h4>
+              <p>Ping Pong will count up to your number from 1 with the following exceptions:
+              <ol>
+                <li>Numbers divisible by 3 become "ping"</li>
+                <li>Numbers divisible by 5 become "pong"</li>
+                <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+              </ol>
+            </div>
+          </div>
+          <form id="ping-pong">
+            <div class="form-group">
+              <label for="ping-pong"><h4>Enter your number here:</h4></label><br>
+              <input id="userInput" type="text">
+            </div>
+            <button type="submit" class="btn btn-info">Ping Pong!</button>
+          </form>
         </div>
-        <button type="submit" class="btn btn-warning">Ping Pong!</button>
-      </form>
-      <br>
 
-      <div class="output well">
-        <p><strong>Here are your numbers!</strong></p><br>
-        <ul id="result">
-        </ul>
+        <div class="col-md-6">
+          <div class="output well">
+            <p><strong>Here are your numbers!</strong></p>
+            <ul id="result">
+            </ul>
+            <p class="link">Want to try again? <a href=index.html>Click here</a> to keep playing Ping Pong!<p>
+          </div>
+        </div>
+
       </div>
-
     </div>
   </body>
 </html>

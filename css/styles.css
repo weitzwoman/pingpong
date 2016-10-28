@@ -1,3 +1,27 @@
 .output {
   display: none;
 }
+
+.jumbotron {
+  background-image: url("../img/triangles.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  text-align: center;
+}
+
+#ping-pong {
+  text-align: center;
+}
+
+.well {
+  background-color: #d9edf7;
+  border-color: #5bc0de;
+}
+
+.link {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
