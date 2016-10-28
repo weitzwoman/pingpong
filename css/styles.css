@@ -9,15 +9,24 @@
   background-position: center;
   background-color: white;
   text-align: center;
+  font-family: "futura";
+  font-weight: bold;
 }
 
 #ping-pong {
   text-align: center;
+  font-family: "futura";
 }
 
 .well {
   background-color: #d9edf7;
   border-color: #5bc0de;
+  font-family: "new baskerville";
+}
+
+.panel {
+  border-color: #5bc0de;
+  font-family: "new baskerville";
 }
 
 .link {
