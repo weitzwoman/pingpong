@@ -27,13 +27,17 @@ $(document).ready(function() {
     var isNumber = hasNumbers(originalInput);
     var finalOutput = pingPong(originalInput);
 
+    realFinalOutput = userResult.map(function(result) {
+      return "<li>" + result + "</li>";
+    });
+
     if (isNumber === false) {
       alert("Please only use numbers");
     } else if (originalInput < 1) {
       alert("Please only use positive numbers");
     } else {
-      $("#result").text(finalOutput);
-      $("#output").show();
+      $("#result").append(realFinalOutput);
+      $(".output").show();
     }
     event.preventDefault();
   });
